@@ -1,0 +1,13 @@
+cradle:
+  cabal:
+    - path: "./src"
+      component: "lib:hwc"
+
+    - path: "./app"
+      component: "hwc:exe:hwc-exe"
+
+    - path: "./test"
+      component: "hwc:test:hwc-test"
+
+    - path: "./benchmark"
+      component: "hwc:bench:hwc-benchmark"

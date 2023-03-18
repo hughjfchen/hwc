@@ -1,0 +1,50 @@
+{
+    "haskell.nix": {
+        "branch": "master",
+        "description": "Alternative Haskell Infrastructure for Nixpkgs",
+        "homepage": "https://input-output-hk.github.io/haskell.nix",
+        "owner": "input-output-hk",
+        "repo": "haskell.nix",
+        "rev": "f9c44b9da112254981455ff99bcd0e9800f0dcc9",
+        "sha256": "1wps0r5sgc6x1j3cp5s9y4qr33iawhndax5zsagkwdz0rdrr7f7h",
+        "type": "tarball",
+        "url": "https://github.com/input-output-hk/haskell.nix/archive/f9c44b9da112254981455ff99bcd0e9800f0dcc9.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "niv": {
+        "branch": "master",
+        "description": "Easy dependency management for Nix projects",
+        "homepage": "https://github.com/nmattia/niv",
+        "owner": "nmattia",
+        "repo": "niv",
+        "rev": "ecabfde837ccfb392ccca235f96bfcf4bb8ab186",
+        "sha256": "1aij19grvzbxj0dal49bsnhq1lc23nrglv6p0f00gwznl6109snj",
+        "type": "tarball",
+        "url": "https://github.com/nmattia/niv/archive/ecabfde837ccfb392ccca235f96bfcf4bb8ab186.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "nixpkgs": {
+        "branch": "nixos-22.11",
+        "description": "Nix Packages collection",
+        "homepage": "",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "cd34d6ed7ba7d5c4e44b04a53dc97edb52f2766c",
+        "sha256": "1dnlxk819zlkhmgc6h280n9khj0mb08ylhcgwc95hdczsmq02pv1",
+        "type": "tarball",
+        "url": "https://github.com/NixOS/nixpkgs/archive/cd34d6ed7ba7d5c4e44b04a53dc97edb52f2766c.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "nixpkgs-darwin": {
+        "branch": "nixpkgs-22.11-darwin",
+        "description": "Nix Packages collection",
+        "homepage": "",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "e65b194086a33845ddd0b5ddd2f65d8bad6c9cf0",
+        "sha256": "1icigp118071c4bkgvx375cl952km1j91yd9pd2kwlq318c2ly53",
+        "type": "tarball",
+        "url": "https://github.com/NixOS/nixpkgs/archive/e65b194086a33845ddd0b5ddd2f65d8bad6c9cf0.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    }
+}
